@@ -85,3 +85,51 @@
 [submodule "plugins/ripr"]
 	path = plugins/ripr
 	url = https://github.com/pbiernat/ripr
+[submodule "plugins/llvm-deobfuscator"]
+	path = plugins/llvm-deobfuscator
+	url = https://github.com/RPISEC/llvm-deobfuscator
+[submodule "plugins/trickledown_vars"]
+	path = plugins/trickledown_vars
+	url = https://github.com/toolCHAINZ/trickledown_vars
+[submodule "plugins/binja_function_abi"]
+	path = plugins/binja_function_abi
+	url = https://github.com/whitequark/binja_function_abi
+[submodule "plugins/binja_itanium_cxx_abi"]
+	path = plugins/binja_itanium_cxx_abi
+	url = https://github.com/whitequark/binja_itanium_cxx_abi
+[submodule "plugins/binaryninja-lc3"]
+	path = plugins/binaryninja-lc3
+	url = https://github.com/kapaw/binaryninja-lc3
+[submodule "plugins/binjago"]
+	path = plugins/binjago
+	url = https://github.com/zznop/binjago
+[submodule "plugins/binja_sibyl"]
+	path = plugins/binja_sibyl
+	url = https://github.com/kenoph/binja_sibyl
+[submodule "plugins/binaryninja_avr"]
+	path = plugins/binaryninja_avr
+	url = https://github.com/fluxchief/binaryninja_avr
+[submodule "plugins/bnpy"]
+	path = plugins/bnpy
+	url = https://github.com/extremecoders-re/bnpy
+[submodule "plugins/xref_call_finder"]
+	path = plugins/xref_call_finder
+	url = https://github.com/rick2600/xref_call_finder
+[submodule "plugins/binaryninja-search"]
+	path = plugins/binaryninja-search
+	url = https://github.com/6e726d/binaryninja-search
+[submodule "plugins/WinAPI-Annotator"]
+	path = plugins/WinAPI-Annotator
+	url = https://github.com/levyjm/WinAPI-Annotator
+[submodule "plugins/Keyhole"]
+	path = plugins/Keyhole
+	url = https://github.com/carstein/Keyhole
+[submodule "plugins/binaryninja-clipper"]
+	path = plugins/binaryninja-clipper
+	url = https://github.com/pmackinlay/binaryninja-clipper
+[submodule "plugins/retdec_offline"]
+	path = plugins/retdec_offline
+	url = https://github.com/ThisIsSecurity/retdec_offline
+[submodule "plugins/djumpo_unchained"]
+	path = plugins/djumpo_unchained
+	url = https://github.com/ThisIsSecurity/djumpo_unchained

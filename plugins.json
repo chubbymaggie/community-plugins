@@ -72,6 +72,184 @@
     }, 
     {
         "api": "python2", 
+        "author": "Stormshield", 
+        "dependencies": {
+            "pip": [
+                "Pygments"
+            ]
+        }, 
+        "description": "The plugin recovers C code from machine code.", 
+        "license": {
+            "name": "MIT", 
+            "text": "Original work Copyright (c) 2017 crazy rabbidz\nModified work Copyright (c) 2018 Stormshield\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "The plugin uses RetDec to decompile code machine into C code. The plugin works offline.", 
+        "minimumBinaryNinjaVersion": {
+            "dev": "1.1.dev-1060", 
+            "release": "9999"
+        }, 
+        "name": "RetDec Offline Decompiler", 
+        "path": "retdec_offline", 
+        "type": [
+            "core", 
+            "ui", 
+            "architecture", 
+            "binaryview"
+        ], 
+        "url": "https://github.com/ThisIsSecurity/retdec_offline", 
+        "version": "1.0 alpha"
+    }, 
+    {
+        "api": "python2", 
+        "author": "Toshi Piazza & Kareem El-Faramawi", 
+        "description": "Deobfuscator for LLVM-Obfuscator", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) 2017 Toshi Piazza and Kareem El-Faramawi.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "Emits a cleaned binary from one that has been obfuscated via LLVM-obfuscator's control-flow flattening pass", 
+        "minimumBinaryNinjaVersion": {
+            "dev": "1.1.dev-1015"
+        }, 
+        "name": "LLVM Deobfuscator", 
+        "path": "llvm-deobfuscator", 
+        "type": [
+            "core", 
+            "ui"
+        ], 
+        "url": "https://github.com/RPISEC/llvm-deobfuscator", 
+        "version": "0.1"
+    }, 
+    {
+        "api": "python2", 
+        "author": "rick2600", 
+        "dependencies": {}, 
+        "description": "Print call chains to a target function", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) 2016 rick2600\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "Print call chains to a target function by recursively following xrefs", 
+        "minimumBinaryNinjaVersion": {
+            "dev": "1.0.dev-576", 
+            "release": "9999"
+        }, 
+        "name": "Xref Call Finder", 
+        "path": "xref_call_finder", 
+        "type": [
+            "core", 
+            "ui", 
+            "architecture", 
+            "binaryview"
+        ], 
+        "url": "https://github.com/rick2600/xref_call_finder", 
+        "version": "1.0 alpha"
+    }, 
+    {
+        "api": "python2", 
+        "author": "Stormshield", 
+        "description": "The plugin de-obfuscates chained jumps.", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) 2018 Stormshield\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "The plugin de-obfuscates chained jumps.", 
+        "minimumBinaryNinjaVersion": {
+            "dev": "1.1.dev-1060", 
+            "release": "9999"
+        }, 
+        "name": "Djumpo Unchained", 
+        "path": "djumpo_unchained", 
+        "type": [
+            "core", 
+            "ui", 
+            "architecture", 
+            "binaryview"
+        ], 
+        "url": "https://github.com/ThisIsSecurity/djumpo_unchained", 
+        "version": "1.0 alpha"
+    }, 
+    {
+        "api": "python2", 
+        "author": "whitequark", 
+        "description": "A plugin that adds a GUI for changing function ABI.", 
+        "license": {
+            "name": "BSD-0-clause"
+        }, 
+        "longdescription": "This plugin provides a GUI for adjusting the ABI in a fine-grained way. Calling convention and clobbered registers can be adjusted.", 
+        "name": "function_abi", 
+        "path": "binja_function_abi", 
+        "type": [
+            "ui"
+        ], 
+        "url": "https://github.com/whitequark/binja_function_abi", 
+        "version": "0.1"
+    }, 
+    {
+        "api": "python2", 
+        "author": "Patrick Mackinlay", 
+        "description": "A disassembler and lifter for the CLIPPER architecture.", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) 2018 Patrick Mackinlay.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "This plugin disassembles CLIPPER assembly code and generates LLIL.\n\nTo install this plugin, navigate to your Binary Ninja plugins directory, and run\n\n```git clone https://github.com/pmackinlay/binaryninja-clipper.git clipper```", 
+        "minimumBinaryNinjaVersion": {
+            "release": "1.1.1150"
+        }, 
+        "name": "CLIPPER Architecture Plugin", 
+        "path": "binaryninja-clipper", 
+        "type": [
+            "architecture"
+        ], 
+        "url": "https://github.com/pmackinlay/binaryninja-clipper", 
+        "version": "0.4"
+    }, 
+    {
+        "api": "python2", 
+        "author": "extremecoders", 
+        "description": "Python 2.7 architecture plugin.", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) 2017 extremecoders\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "This is a Python 2.7 architecture plugin for disassembling raw python bytecode.", 
+        "minimumBinaryNinjaVersion": {
+            "dev": "1.0.dev-576", 
+            "release": "9999"
+        }, 
+        "name": "bnpy", 
+        "path": "bnpy", 
+        "type": [
+            "architecture"
+        ], 
+        "url": "https://github.com/extremecoders-re/bnpy", 
+        "version": "1.0 alpha"
+    }, 
+    {
+        "api": "python2", 
+        "author": "Kevin Hamacher", 
+        "description": "AVR architecture plugin + lifter.", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) 2018 Kevin Hamacher.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "This plugin adds support for the AVR architecture to binaryninja.\nIt lifts most instructions and marks the interrupt vectors by default.\nSupported MCUs: Mega16, Tiny48, Tiny88, XMega256A4. *Please read README.md for more details*.", 
+        "minimumBinaryNinjaVersion": {
+            "dev": "1.1.0", 
+            "release": "1.1.0"
+        }, 
+        "name": "AVR Architecture Plugin", 
+        "path": "binaryninja_avr", 
+        "type": [
+            "architecture", 
+            "binaryview"
+        ], 
+        "url": "https://github.com/fluxchief/binaryninja_avr", 
+        "version": "0.1"
+    }, 
+    {
+        "api": "python2", 
         "author": "Patrick Biernat", 
         "description": "Package binary code as a Python class backed by Unicorn-Engine", 
         "license": {
@@ -80,6 +258,9 @@
         }, 
         "name": "ripr", 
         "path": "ripr", 
+        "type": [
+            "none"
+        ], 
         "url": "https://github.com/pbiernat/ripr", 
         "version": "v1.1"
     }, 
@@ -123,6 +304,33 @@
         ], 
         "url": "https://github.com/x64dbg/x64dbgbinja", 
         "version": "1.0"
+    }, 
+    {
+        "api": "python2", 
+        "author": "John Levy with help from @carstein", 
+        "dependencies": {
+            "apt": [], 
+            "installers": [], 
+            "other": [], 
+            "pip": []
+        }, 
+        "description": "A plugins that annotates Windows API function arguments.", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) <year> <copyright holders>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "Upon encountering a Windows API function call this plugins uses virtual stack to annotate previous instructions with comments annotating the parameters.", 
+        "minimumBinaryNinjaVersion": {
+            "dev": "1.0.dev-175", 
+            "release": "1.0.13"
+        }, 
+        "name": "WinAPI-Annotator", 
+        "path": "WinAPI-Annotator", 
+        "type": [
+            "binaryview"
+        ], 
+        "url": "https://github.com/levyjm/WinAPI-Annotator", 
+        "version": "0.2"
     }, 
     {
         "api": "python2", 
@@ -254,8 +462,7 @@
         }, 
         "longdescription": "This plugin disassembles MSP430 assembly code and generates LLIL.\n\nTo install this plugin, navigate to your Binary Ninja plugins directory, and run\n\n```git clone https://github.com/joshwatson/binaryninja-msp430.git msp430```\n\nThen create a python file called `msp430.py` with the contents\n\n```import msp430```", 
         "minimumBinaryNinjaVersion": {
-            "release (Commercial)": "1.0.320", 
-            "release (Personal)": "1.0.13"
+            "release": "1.1.922"
         }, 
         "name": "MSP430 Architecture Plugin", 
         "path": "binaryninja-msp430", 
@@ -263,7 +470,7 @@
             "architecture"
         ], 
         "url": "https://github.com/joshwatson/binaryninja-msp430", 
-        "version": "0.2b"
+        "version": "0.3"
     }, 
     {
         "api": "python2", 
@@ -350,6 +557,33 @@
     }, 
     {
         "api": "python2", 
+        "author": "Michal Melewski <michal.melewski@gmail.com>", 
+        "dependencies": {
+            "apt": [], 
+            "installers": [], 
+            "other": [], 
+            "pip": []
+        }, 
+        "description": "Report about functions in given binary.", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) <year> <copyright holders>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "Plugin iterates through all identified functions in a given binary counting instructions, basic blocks, function calls and code references. Gathered information are then printed out in a tabular form.", 
+        "minimumBinaryNinjaVersion": {
+            "dev": "1.0.dev-175", 
+            "release": "1.1.1038"
+        }, 
+        "name": "Keyhole", 
+        "path": "Keyhole", 
+        "type": [
+            "ui"
+        ], 
+        "url": "https://github.com/carstein/Keyhole", 
+        "version": "0.1"
+    }, 
+    {
+        "api": "python2", 
         "author": "David Manouchehri", 
         "dependencies": {
             "apt": [
@@ -408,6 +642,69 @@
     }, 
     {
         "api": "python2", 
+        "author": "6e726d", 
+        "dependencies": {
+            "dev": "1.0.dev-175", 
+            "release": "1.0.13"
+        }, 
+        "description": "Search for the specific value in the instruction operands.", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (C) 2018 Andrés Blanco <6e726d@gmail.com>\n\nPermission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE."
+        }, 
+        "longdescription": "Search for the specific value in the instruction operands.", 
+        "minimumBinaryNinjaVersion": {}, 
+        "name": "Search Immediate", 
+        "path": "binaryninja-search", 
+        "type": [
+            "ui"
+        ], 
+        "url": "https://github.com/6e726d/binaryninja-search", 
+        "version": "0.1"
+    }, 
+    {
+        "api": "python2", 
+        "author": "toolCHAINZ", 
+        "dependencies": {}, 
+        "description": "(ALPHA) Autorename variables that are copies of other variables.", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) 2017 toolCHAINZ\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "A lot of MLIL variables don't do anything, and just shuttle data from location to location.\n\nBy looking at MLIL var definitions and uses, it is possible to identify these trivial cases and automatically rename the variables involved.", 
+        "minimumBinaryNinjaVersion": {
+            "dev": "1.1.1016-dev"
+        }, 
+        "name": "Trickle-down Variables", 
+        "path": "trickledown_vars", 
+        "type": [
+            "ui"
+        ], 
+        "url": "https://github.com/toolCHAINZ/trickledown_vars", 
+        "version": "0.1 alpha"
+    }, 
+    {
+        "api": "python2", 
+        "author": "zznop", 
+        "description": "Binjago static analysis plugin suite.", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) 2017 zznop\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "A suite of Binary Ninja plugins that aid in static analysis and exploitation", 
+        "minimumBinaryNinjaVersion": {
+            "release": "1.1.922"
+        }, 
+        "name": "binjago", 
+        "path": "binjago", 
+        "type": [
+            "binaryview"
+        ], 
+        "url": "https://github.com/zznop/binjago", 
+        "version": "1.0"
+    }, 
+    {
+        "api": "python2", 
         "author": "Ryan Stortz (@withzombies)", 
         "dependencies": {
             "apt": [
@@ -432,6 +729,22 @@
         ], 
         "url": "https://github.com/withzombies/bnil-graph", 
         "version": "1.0.0"
+    }, 
+    {
+        "api": "python2", 
+        "author": "whitequark", 
+        "description": "A plugin providing an analysis for Itanium C++ ABI.", 
+        "license": {
+            "name": "BSD-0-clause"
+        }, 
+        "longdescription": "This plugin provides a custom demangler, an analysis that decodes mangled names and updates function signatures, and an analysis that decodes RTTI and vtables and discovers new procedures based on virtual function pointers.", 
+        "name": "Itanium C++ ABI", 
+        "path": "binja_itanium_cxx_abi", 
+        "type": [
+            "analysis"
+        ], 
+        "url": "https://github.com/whitequark/binja_itanium_cxx_abi", 
+        "version": "0.1"
     }, 
     {
         "api": "python2", 
@@ -506,6 +819,27 @@
     }, 
     {
         "api": "python2", 
+        "author": "Paw Petersen", 
+        "description": "Disassembler for the LC-3 architecture.", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) 2016 Paw Petersen\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "Plugin for disassembling code for the Little Computer 3 architecture:\n\n![scanf](test/scanf.png)\n\nLinux installation: `cd ~/.binaryninja/plugins && git clone https://github.com/kapaw/binaryninja-lc3.git lc3`.\n\nTested using code generated by `http://highered.mcgraw-hill.com/sites/0072467509/student_view0/c_to_lc-3_compiler.html`.", 
+        "minimumBinaryNinjaVersion": {
+            "dev": "1.0.320-dev", 
+            "release": "1.0.320"
+        }, 
+        "name": "LC-3 Architecture Plugin", 
+        "path": "binaryninja-lc3", 
+        "type": [
+            "architecture"
+        ], 
+        "url": "https://github.com/kapaw/binaryninja-lc3", 
+        "version": "0.1"
+    }, 
+    {
+        "api": "python2", 
         "author": "Eric Hennenfent", 
         "dependencies": {
             "apt": [
@@ -565,6 +899,36 @@
         ], 
         "url": "https://github.com/amtal/i8051", 
         "version": "0.0.0"
+    }, 
+    {
+        "api": "python2", 
+        "author": "Paolo Montesel (github.com/kenoph)", 
+        "dependencies": {
+            "apt": [], 
+            "installers": [], 
+            "other": [], 
+            "pip": [
+                "sibyl", 
+                "miasm"
+            ]
+        }, 
+        "description": "Sibyl plugin for Binja", 
+        "license": {
+            "name": "BSD 2-Clause License"
+        }, 
+        "longdescription": "Sibyl is a tool to recognize function names based on their side effects", 
+        "minimumBinaryNinjaVersion": {
+            "dev": "1.0.dev-576", 
+            "release": "9999"
+        }, 
+        "name": "Binja Sibyl", 
+        "path": "binja_sibyl", 
+        "type": [
+            "ui", 
+            "binaryview"
+        ], 
+        "url": "https://github.com/kenoph/binja_sibyl", 
+        "version": "0.1 alpha"
     }, 
     {
         "api": "python2", 
@@ -718,10 +1082,7 @@
         "name": "LLIL", 
         "path": "liil", 
         "type": [
-            "core", 
-            "ui", 
-            "architecture", 
-            "binaryview"
+            "ui"
         ], 
         "url": "https://github.com/ColdHeat/liil", 
         "version": "1.0 alpha"
